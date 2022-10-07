@@ -1,0 +1,319 @@
+
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* header */
+
+body{
+    background-color: black;
+    letter-spacing: 2px;
+}
+#section{
+    animation-duration: 5s;
+}
+#header{
+    background-color: rgba(87, 86, 86, 0.76);
+    margin: 15px;
+    padding: 3px;
+    top: 0;
+    display: flex;
+    position: sticky;
+}
+.header__logo{
+    color: black;
+    height: auto;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.header__links{
+    margin-left: 810px;
+    margin-top: 20px;
+}
+.header__links nav ul li{
+    display: inline;
+} 
+.header__links nav ul li a{
+    color: azure;
+    text-decoration: none;
+}
+.header__links nav ul li a:hover{
+    background-color: rgba(169, 169, 169, 0.541)  
+}
+
+/* pag0 */
+
+#html__pag0, #body__pag0{
+    overflow: hidden
+}
+#div__imagenes{
+    display: flex;
+    border-bottom-color: 5px azure;
+    flex-flow: row nowrap;
+}
+.div__img1 img{
+    width: 100%;
+    height: auto;
+    width: 180px;
+    margin-top: 130px;
+    margin-left: 125px;
+    animation-duration: 4s;
+}
+.div__img2 img{
+    width: 100%;
+    height: auto;
+    width: 180px;
+    margin-top: 130px;
+    margin-left: 125px;
+    animation-duration: 3s;
+}
+.div__img3 img{
+    width: 100%;
+    height: auto;
+    width: 180px;
+    margin-top: 130px;
+    margin-left: 125px;
+    animation-duration: 3s;
+}
+.div__img4 img{
+    width: 100%;
+    height: auto;
+    width: 180px;
+    margin-top: 130px;
+    margin-left: 125px;
+    animation-duration: 4s;
+}
+.div__pieDeImagen{
+    color: azure;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 585px;
+    letter-spacing: 6px;
+}
+.div__imagen{
+   margin-left: 520px;
+}
+.div__imagen{  
+    width: 400px;
+    height: 120px;
+}
+
+/* pag1 */
+
+#html__pag1, #body__pag1{
+    overflow: hidden
+}
+#section__entrena{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+/* pag2 */
+
+#html__pag2, #body__pag2{
+    overflow: hidden
+}
+#section__planes{
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+/* pag3 */
+
+#html__pag3, #body__pag3{
+    overflow: hidden
+}
+#section__empieza{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+/* pag1 */ /* pag2 */ /* pag3 */
+
+#section__entrena{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.section__cuadroDeInfo{
+    background-color: black;
+    width: 360px;
+    height: auto;
+    margin: 50px;
+    border: 15px solid dimgray;
+    border-left-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    padding: 10px 
+}
+.section__cuadroDeInfo h2{
+    font-size: 80px;
+    color: azure;
+    text-align: center;
+    animation-duration: 3s;
+}
+.section__text{
+    background-color: black;
+    width: 300px;
+    height: auto;
+    margin: 50px;
+    border: 10px solid dimgray;
+    border-left-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    padding: 10px 
+}
+.section__text{
+    font-size: 25px;
+    color: azure;
+}
+.section__text p{
+    animation-duration: 5s;
+}
+.section__text2{
+    background-color: black;
+    width: 330px;
+    height: auto;
+    margin: 50px;
+    border: 10px solid dimgray;
+    border-left-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    padding: 10px 
+ }
+.section__text2{
+    font-size: 25px;
+    color: azure;
+ }
+ .section__text2 p{
+    animation-duration: 7s;
+ }
+
+/* pag1 */
+.section__img--brazo img{
+    width: 250px;
+}
+/* pag2 */
+.section__img--barrasEnX img{
+    width: 300px;
+}
+/* pag3 */
+.section__img--brazo--mancuerna img{
+    width: 280px;
+}
+
+/* pag4 */
+
+.section__cuadroDeInfo4{
+    background-color: rgba(41, 40, 40, 0.836);
+    width: 365px;
+    height: auto;
+    margin: 40px;
+    margin-left: 500px;
+    border: 5px solid dimgray;
+    padding: 10px 
+}
+.section__cuadroDeInfo4 .section__text4{
+    color: azure;
+    text-align: center;
+    font-size: 55px;
+    display: inline;
+}
+.section__text4c{
+    background-color: rgba(41, 40, 40, 0.836);
+    width: 440px;
+    height: auto;
+    margin: 10px;
+    margin-left: 460px;
+    border: 5px solid dimgray;
+    padding: 10px 
+}
+.section__text4c p{
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+}
+.section__coment{
+    background-color: rgba(41, 40, 40, 0.836);
+    width: 440px;
+    height: auto;
+    margin: 10px;
+    margin-left: 460px;
+    border: 5px solid dimgray;
+    padding: 10px 
+}
+.section__coment p{
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+}
+.section__img--mancuerna{
+    margin: 40px;
+    margin-left: 290px;
+}
+.section__img--mancuerna img{
+    width: 800px;
+    margin-bottom: 200px;
+}
+
+/* Footer */
+
+.div__pieDePag{
+    background-color: rgb(48, 47, 47);
+    color: black;
+    text-align: center;
+    width: 350px;
+    margin-left: 500px;
+}
+#footer{
+    display: grid;
+    background-color: rgb(56, 55, 55);
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 20px;
+}
+.footer1{
+    padding: 4px;
+}
+.footer1 img{
+    margin-left: 400px;
+}
+.footer2 img{
+    margin-left: 200px;
+}
+.footer3 img{
+    margin-right: 100px;
+}
+.footer1 img:hover{
+    background-color: gray;
+}
+.footer2 img:hover{
+    background-color: gray;
+}
+.footer3 img:hover{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
